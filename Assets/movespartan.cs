@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class movespartan : MonoBehaviour {
 	public Transform[] target;
+	public Transform final_target;
 	public float speed;
 	private Vector3 startingPosition;
 	private int i = 0;
